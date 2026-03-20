@@ -1,0 +1,3884 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DieMaintenance
+</name>
+</assembly>
+<members>
+<member name="T:DieMaintenance.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DieMaintenance.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:DieMaintenance.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:DieMaintenance.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:DieMaintenance.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:DieMaintenance.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextSpareName">
+<summary>
+TextSpareName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._bntAddNew">
+<summary>
+bntAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextCavity">
+<summary>
+TextCavity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._bntEdit">
+<summary>
+bntEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextInsert">
+<summary>
+TextInsert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._DrpStatus">
+<summary>
+DrpStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._TextPartID">
+<summary>
+TextPartID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.AddPartMaster._GridViewDie">
+<summary>
+GridViewDie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextSpareName">
+<summary>
+TextSpareName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._bntAddNew">
+<summary>
+bntAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._FilePdfUpload">
+<summary>
+FilePdfUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._TextPartID">
+<summary>
+TextPartID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAddPDF._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._TxtDate">
+<summary>
+TxtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._DrpReq">
+<summary>
+DrpReq control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._DrpStart">
+<summary>
+DrpStart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._DrpDet">
+<summary>
+DrpDet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._DrpFin">
+<summary>
+DrpFin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._DrpSet">
+<summary>
+DrpSet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._TxtRepID">
+<summary>
+TxtRepID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._ButOK">
+<summary>
+ButOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieAppHowTo._GridDieLocation">
+<summary>
+GridDieLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextFromLocation">
+<summary>
+TextFromLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextChangeLocation">
+<summary>
+TextChangeLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieChangeLocation._bntclear">
+<summary>
+bntclear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._LabelDate">
+<summary>
+LabelDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._GridReport">
+<summary>
+GridReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._GridReportIM2">
+<summary>
+GridReportIM2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._GridReportIM3">
+<summary>
+GridReportIM3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._TextDate1">
+<summary>
+TextDate1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._TextDate2">
+<summary>
+TextDate2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieDailyReport._GridView2">
+<summary>
+GridView2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextLocation">
+<summary>
+TextLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DropProblemFrom">
+<summary>
+DropProblemFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._FileUpload">
+<summary>
+FileUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._BUpload">
+<summary>
+BUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._ImgMqpr">
+<summary>
+ImgMqpr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpMatLeak">
+<summary>
+DrpMatLeak control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpClean">
+<summary>
+DrpClean control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpScra">
+<summary>
+DrpScra control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpLu">
+<summary>
+DrpLu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpSlideLeak">
+<summary>
+DrpSlideLeak control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpSlideSc">
+<summary>
+DrpSlideSc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpSlideLu">
+<summary>
+DrpSlideLu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCaDent">
+<summary>
+DrpCaDent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCaScr">
+<summary>
+DrpCaScr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCaCrack">
+<summary>
+DrpCaCrack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCaBend">
+<summary>
+DrpCaBend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCaOff">
+<summary>
+DrpCaOff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCool">
+<summary>
+DrpCool control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpJoint">
+<summary>
+DrpJoint control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpCable">
+<summary>
+DrpCable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpWatHose">
+<summary>
+DrpWatHose control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpEScr">
+<summary>
+DrpEScr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpElu">
+<summary>
+DrpElu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrptopPlate">
+<summary>
+DrptopPlate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpPsen">
+<summary>
+DrpPsen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpEPsen">
+<summary>
+DrpEPsen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpUnder">
+<summary>
+DrpUnder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpPsenHave">
+<summary>
+DrpPsenHave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._DrpPsenUse">
+<summary>
+DrpPsenUse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._txtPsen">
+<summary>
+txtPsen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinish._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextRepairDetail">
+<summary>
+TextRepairDetail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieFinishOnMc._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieHubMainPage._GridSum">
+<summary>
+GridSum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._TextCus">
+<summary>
+TextCus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._TextDrw">
+<summary>
+TextDrw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._TextLocation">
+<summary>
+TextLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._GridDieLocation">
+<summary>
+GridDieLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._GridStandBy">
+<summary>
+GridStandBy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._GridRuning">
+<summary>
+GridRuning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLocation._butRefresh">
+<summary>
+butRefresh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLogin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLogin._TextUsername">
+<summary>
+TextUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLogin._TextPassword">
+<summary>
+TextPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLogin._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieLogin._btnRegister">
+<summary>
+btnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._bntFree">
+<summary>
+bntFree control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnMain">
+<summary>
+btnMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnMonitor">
+<summary>
+btnMonitor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnDieLocation">
+<summary>
+btnDieLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnDieReport">
+<summary>
+btnDieReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnSummary">
+<summary>
+btnSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnDaily">
+<summary>
+btnDaily control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnDieSpare">
+<summary>
+btnDieSpare control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnAllProgram">
+<summary>
+btnAllProgram control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._btnLogout">
+<summary>
+btnLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMaster._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._labWait">
+<summary>
+labWait control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._labRep">
+<summary>
+labRep control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextDate">
+<summary>
+TextDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._textTimehr">
+<summary>
+textTimehr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._textTimeMin">
+<summary>
+textTimeMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextDateFi">
+<summary>
+TextDateFi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._textTimehrFi">
+<summary>
+textTimehrFi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._textTimeMinFi">
+<summary>
+textTimeMinFi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._TextNameTar">
+<summary>
+TextNameTar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._BtnPlan">
+<summary>
+BtnPlan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._butBack">
+<summary>
+butBack control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._gidWaitRepair">
+<summary>
+gidWaitRepair control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieMonitor._gidUnderRepair">
+<summary>
+gidUnderRepair control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextLocation">
+<summary>
+TextLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._drpCauseSetUp">
+<summary>
+drpCauseSetUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieOut._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._TextCus">
+<summary>
+TextCus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._TextDrw">
+<summary>
+TextDrw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._TextRepID">
+<summary>
+TextRepID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._GridPic">
+<summary>
+GridPic control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._ImBef">
+<summary>
+ImBef control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DiePicture._ImAf">
+<summary>
+ImAf control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextMaker">
+<summary>
+TextMaker control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._bntAddNew">
+<summary>
+bntAddNew control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextCavity">
+<summary>
+TextCavity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._bntEdit">
+<summary>
+bntEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextInvoice">
+<summary>
+TextInvoice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextOwner">
+<summary>
+TextOwner control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._TextAssetNo">
+<summary>
+TextAssetNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._txtShot">
+<summary>
+txtShot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._txtShotBefore">
+<summary>
+txtShotBefore control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._txtCondi">
+<summary>
+txtCondi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._FilePdfUpload">
+<summary>
+FilePdfUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._FileUploadExcel">
+<summary>
+FileUploadExcel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._drpSheet">
+<summary>
+drpSheet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._btnUpload">
+<summary>
+btnUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._ButtonShowTable">
+<summary>
+ButtonShowTable control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._btnDownload">
+<summary>
+btnDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReceive._GridViewDie">
+<summary>
+GridViewDie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextRepairName1">
+<summary>
+TextRepairName1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextRepairName2">
+<summary>
+TextRepairName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._drpReasonRepair">
+<summary>
+drpReasonRepair control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextDate">
+<summary>
+TextDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextTimeHr">
+<summary>
+TextTimeHr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._TextTimeMin">
+<summary>
+TextTimeMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._BtnPlan">
+<summary>
+BtnPlan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._GridShowShot">
+<summary>
+GridShowShot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepair._ImBef">
+<summary>
+ImBef control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._DrpCase">
+<summary>
+DrpCase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._DrpPartName">
+<summary>
+DrpPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._DrpCavNo">
+<summary>
+DrpCavNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._DrpInsertNo">
+<summary>
+DrpInsertNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextRepairDetail">
+<summary>
+TextRepairDetail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextEmpNo">
+<summary>
+TextEmpNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._FileUpload">
+<summary>
+FileUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._BUpload">
+<summary>
+BUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._btnClear">
+<summary>
+btnClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._bntOk">
+<summary>
+bntOk control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._serch">
+<summary>
+serch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._GridRePairHistory">
+<summary>
+GridRePairHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairDetail._ImBef">
+<summary>
+ImBef control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextRepairName1">
+<summary>
+TextRepairName1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextRepairName2">
+<summary>
+TextRepairName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextProblem">
+<summary>
+TextProblem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextDate">
+<summary>
+TextDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextTimeHr">
+<summary>
+TextTimeHr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._TextTimeMin">
+<summary>
+TextTimeMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepairOnMc._GridShowShot">
+<summary>
+GridShowShot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._TextDate1">
+<summary>
+TextDate1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._TextDate2">
+<summary>
+TextDate2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._DrpLoad">
+<summary>
+DrpLoad control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._GridReport">
+<summary>
+GridReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._btnDownload">
+<summary>
+btnDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._btnLoadCase">
+<summary>
+btnLoadCase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReport._btnLoadRepairRecord">
+<summary>
+btnLoadRepairRecord control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._TextDate1">
+<summary>
+TextDate1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._TextDate2">
+<summary>
+TextDate2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._GridReport">
+<summary>
+GridReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieReportOnMC._btnDownload">
+<summary>
+btnDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRepTop._GridViewDie">
+<summary>
+GridViewDie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._Textshot">
+<summary>
+Textshot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpReasonRepair">
+<summary>
+drpReasonRepair control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._txtMc">
+<summary>
+txtMc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpApp1">
+<summary>
+drpApp1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpPos1">
+<summary>
+drpPos1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpLim1">
+<summary>
+drpLim1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpItem1">
+<summary>
+DrpItem1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCav1">
+<summary>
+TextCav1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpApp2">
+<summary>
+drpApp2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpPos2">
+<summary>
+drpPos2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpLim2">
+<summary>
+drpLim2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpItem2">
+<summary>
+DrpItem2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCav2">
+<summary>
+TextCav2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpApp3">
+<summary>
+drpApp3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpPos3">
+<summary>
+drpPos3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpLim3">
+<summary>
+drpLim3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpItem3">
+<summary>
+DrpItem3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCav3">
+<summary>
+TextCav3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpSpec1">
+<summary>
+drpSpec1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpPosSpec1">
+<summary>
+drpPosSpec1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpLimSpec1">
+<summary>
+drpLimSpec1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpItemSpec1">
+<summary>
+DrpItemSpec1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCavSpec1">
+<summary>
+TextCavSpec1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpSpec2">
+<summary>
+drpSpec2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpPosSpec2">
+<summary>
+drpPosSpec2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpLimSpec2">
+<summary>
+drpLimSpec2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpItemSpec2">
+<summary>
+DrpItemSpec2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCavSpec2">
+<summary>
+TextCavSpec2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpSpec3">
+<summary>
+drpSpec3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpPosSpec3">
+<summary>
+drpPosSpec3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._drpLimSpec3">
+<summary>
+drpLimSpec3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpItemSpec3">
+<summary>
+DrpItemSpec3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextCavSpec3">
+<summary>
+TextCavSpec3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpOther1">
+<summary>
+DrpOther1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextRemark">
+<summary>
+TextRemark control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._DrpOther2">
+<summary>
+DrpOther2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextDate">
+<summary>
+TextDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._textTimehr">
+<summary>
+textTimehr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._textTimeMin">
+<summary>
+textTimeMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextDateFi">
+<summary>
+TextDateFi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._textTimehrFi">
+<summary>
+textTimehrFi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._textTimeMinFi">
+<summary>
+textTimeMinFi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._TextNameTar">
+<summary>
+TextNameTar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieRequis._BtnPlan">
+<summary>
+BtnPlan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._DrpReason">
+<summary>
+DrpReason control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._DrpPrbFrom">
+<summary>
+DrpPrbFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._TextDate1">
+<summary>
+TextDate1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._TextDate2">
+<summary>
+TextDate2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._GridReport">
+<summary>
+GridReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._TextDieNameB">
+<summary>
+TextDieNameB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._TextDieNoB">
+<summary>
+TextDieNoB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._DrpReasonB">
+<summary>
+DrpReasonB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._DrpPrbFromB">
+<summary>
+DrpPrbFromB control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._txtDate3">
+<summary>
+txtDate3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._txtDate4">
+<summary>
+txtDate4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._BtnOK">
+<summary>
+BtnOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._Button3">
+<summary>
+Button3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieTopWorse._GrdTopBreak">
+<summary>
+GrdTopBreak control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TxtSpare">
+<summary>
+TxtSpare control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TxtDrwSpare">
+<summary>
+TxtDrwSpare control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TxtLocation">
+<summary>
+TxtLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextDate">
+<summary>
+TextDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextTimeHr">
+<summary>
+TextTimeHr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._TextTimeMin">
+<summary>
+TextTimeMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._DrpCaseWait">
+<summary>
+DrpCaseWait control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpare._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._TextDate1">
+<summary>
+TextDate1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._TextDate2">
+<summary>
+TextDate2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._GridReport">
+<summary>
+GridReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.DieWaitSpareReport._btnDownload">
+<summary>
+btnDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.PartCurrentUse._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.PartCurrentUse._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.PartCurrentUse._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.PartCurrentUse._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.PartCurrentUse._grdCurrentUse">
+<summary>
+grdCurrentUse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.partHistory._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.partHistory._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.partHistory._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.partHistory._btngetData">
+<summary>
+btngetData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.partHistory._grdSpareHis">
+<summary>
+grdSpareHis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.PDFserch._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._bntClear">
+<summary>
+bntClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.RepPsen._GridViewDie">
+<summary>
+GridViewDie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._drpMonth">
+<summary>
+drpMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._LabelCountCases">
+<summary>
+LabelCountCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._LabelBreakDownTime">
+<summary>
+LabelBreakDownTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._GridCountCases">
+<summary>
+GridCountCases control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._GrdCase">
+<summary>
+GrdCase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._GridSpec">
+<summary>
+GridSpec control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Sumary._GridOther">
+<summary>
+GridOther control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextCustomer">
+<summary>
+TextCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._drpStatus">
+<summary>
+drpStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextDieName">
+<summary>
+TextDieName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextLocation">
+<summary>
+TextLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextDieNo">
+<summary>
+TextDieNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextPartName">
+<summary>
+TextPartName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextName">
+<summary>
+TextName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._TextDrawingNo">
+<summary>
+TextDrawingNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._bntOK">
+<summary>
+bntOK control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.UpdateLocation._bntclear">
+<summary>
+bntclear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._TxtBox">
+<summary>
+TxtBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._TxtFlot">
+<summary>
+TxtFlot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._DrpNo">
+<summary>
+DrpNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._input">
+<summary>
+input control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._Show">
+<summary>
+Show control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._BtnEdit">
+<summary>
+BtnEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DieMaintenance.WebForm1._grdShow">
+<summary>
+grdShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
