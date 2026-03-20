@@ -1,0 +1,34 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="DieMaster.master.vb" Inherits="DieMaintenance.DieMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Die Maintenance Web</title>
+    <link href="~/MasterStyle/MasterStyleIM.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+        <div class="header"  ><img src="../Images/DieIM.png" style="height:60px;"/></div>
+        <div class ="menu">
+
+            <asp:Button ID="bntFree" runat="server" Text=" " cssclass="buttonmenu"  style="display:none;"/>
+            <asp:Button ID="btnMain" runat="server" Text="Main Page " cssclass="buttonmenu"  />
+            <asp:Button ID="btnMonitor" runat="server" Text="Die Room Status" cssclass="buttonmenu"  />
+            <asp:Button ID="btnDieLocation" runat="server" Text="Die Location" cssclass="buttonmenu" />
+            <asp:Button ID="btnDieReport" runat="server" Text="Die Repair Report" cssclass="buttonmenu"/>
+             <asp:Button ID="btnSummary" runat="server" Text="Die Summary Report" cssclass="buttonmenu"/>
+            <asp:Button ID="btnDaily" runat="server" Text="Die Daily Report" cssclass="buttonmenu"/>
+             <asp:Button ID="btnDieSpare" runat="server" Text="Die Spare Part" cssclass="buttonmenu"/>
+            <asp:Button ID="btnAllProgram" runat="server" Text="All Program" cssclass="buttonmenu" />
+            <asp:Button ID="btnLogout" runat="server" Text="Logout" cssclass="buttonmenu"/>
+        </div>
+        <div class ="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
