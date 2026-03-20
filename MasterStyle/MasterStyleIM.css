@@ -1,0 +1,423 @@
+﻿.body {
+    /*background-image: radial-gradient(circle, #6bb3c0, #91cfc9, #cde8f3);*/
+    /*background-image: url('../Images/On-premise-ERP-Software-how-does-it-work3.jpg');*/
+    background-image: url('../Images/~1906888.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    margin: 0px;
+    width: 100%;
+    /*height:50%;*/
+    height:60px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.headDie {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    margin: 5% 0% 0% 20%;
+    width: 20%;
+    background-color: #505050;
+    border-style: ridge;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.headRepairDetail {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    margin: 5% 0% 0% 10%;
+    width: 20%;
+    background-color: #505050;
+    border-style: ridge;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.menu {
+    margin: 0px;
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+.content {
+    margin: 0%;
+    display: inline-block;
+    width: 80%;
+    float: left;
+}
+
+.buttonmenu {
+    background-color: #252525;
+    color: white;
+    /*font-size: 150%;*/
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    /*width: 100%;
+    height: 20%;*/
+    width: 200px;
+    height: 40px;
+    border-radius: 0 15px 15px 0;
+}
+
+    .buttonmenu:hover {
+        background-color: #b25b42;
+    }
+
+    .buttonmenu:active {
+        background-color: #f5941d;
+        box-shadow: 0 5px #666;
+        transform: translateY(3px);
+    }
+
+
+.button {
+    width: 100%;
+}
+.mainpageBTN {
+    width: 100%;
+    height: 30px;
+    margin-top: 5%;
+    border-style: outset;
+    background-image: radial-gradient( #FFCC99, #ff580f);
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    transition-duration: 0.1s;
+}
+
+    .mainpageBTN:hover {
+        box-shadow: 0 0px 10px 5px rgba(243, 255, 138, 0.8)
+    }
+
+
+table {
+    background-image: radial-gradient(circle, #DDDDDD, #ffa31a, #FFCC99);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-style: ridge;
+}
+
+.TableLocation {
+    width: 45%;
+    margin: 2% 0% 2% 0%;
+    background: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    /*background-image: linear-gradient(#808080, #DDDDDD );*/
+    border-radius: 15px 15px 0px 0px;
+    vertical-align: top;
+}
+
+
+.customgrids {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .customgrids td, .customgrids th {
+        border: 1px solid #000000;
+        padding: 5px;
+    }
+
+    .customgrids tr:nth-child(even) {
+        background-color: white;
+    }
+
+    .customgrids tr:nth-child(2n+1) {
+        background-color: white;
+    }
+
+    .customgrids tr:hover {
+        background-color: #86ff0d;
+    }
+
+   
+    .customgrids th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #fc790f;
+        color: white;
+        position: sticky;
+        top: 0;
+    }
+
+    .customgrids tr {
+        text-align: center;
+        color: black;
+        font-size: 80%;
+    }
+
+
+.customers {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+    .customers td, .customers th {
+        border: 1px solid #000000;
+        padding: 5px;
+    }
+
+    .customers tr:nth-child(even) {
+        background-color: white;
+    }
+
+    .customers tr:nth-child(2n+1) {
+        background-color:#ffa31a;
+    }
+
+    .customers tr:hover {
+        background-color: #fc2b19;
+    }
+
+    .customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #fc790f;
+        color: white;
+        position: sticky;
+        top: 0;
+    }
+
+    .customers tr {
+        text-align: center;
+        color: black;
+        font-size: 80%;
+    }
+
+.c1 {
+    margin-left: 30%;
+    text-align: right;
+    width: 40%;
+    font-size: 80%;
+}
+
+.c2 {
+    font-size: 80%;
+}
+
+.textbox {
+    font-size: 80%;
+    color: black; 
+}
+
+.butDiemain {
+    text-align: center;
+    margin: 0px;
+    font-size: 120%;
+    color:black;
+    
+}
+
+.Butconfrim{
+    font-size:100%;
+}
+
+.DieRoomHead {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin:5% 0% 0% 0%;
+    font-size: 150%;
+}
+
+.DieUnderRepair {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    text-align: right;
+    margin: 5% 0% 0% 0%;
+    font-size: 150%;
+}
+
+.btnHowTo {
+    width: 30%;
+    height: 40px;
+    font-size: 120%;
+    border-style: outset;
+    background-image: radial-gradient( #FFCC99, #ff580f);
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+    .btnHowTo:hover {
+        box-shadow: 0 0px 10px 5px rgba(243, 255, 138, 0.8)
+    }
+
+.hideGraph {
+    width: 15%;
+    height: 20px;
+    font-size: 50%;
+    border-style: outset;
+    background-image: radial-gradient( #FFCC99, #ff580f);
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+    .txtBoxRequest
+
+{
+    width: 70%;
+    text-align: center;
+}
+
+.btnProblem {
+    width: 20%;
+    height: 30px;
+    font-size: 100%;
+    border-style: outset;
+    background-image: radial-gradient( #FFCC99, #ffa31a);
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+.Center {
+    text-align: center;
+}
+
+.drpbox {
+    text-align: center;
+}
+
+.txtBoxRequest {
+    width: 70%;
+    text-align: center;
+}
+
+.headDaily {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    margin: 2% 0% 0% 23%;
+    width: 30%;
+    background-color: #505050;
+    border-style: ridge;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.headDailyIM {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    margin: 5% 0% 0% 5%;
+    width: 20%;
+    background-color: #505050;
+    border-style: ridge;
+    border-radius: 15px 15px 0px 0px;
+}
+
+----------------------
+
+.DailyGrids {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+.DailyGrids td, .DailyGrids th {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.DailyGrids tr:nth-child(even) {
+    background-color: white;
+}
+
+.DailyGrids tr:nth-child(2n+1) {
+    background-color: #ffa31a;
+}
+
+.DailyGrids tr:hover {
+    background-color: #fc2b19;
+}
+
+.DailyGrids th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #fc790f;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.DailyGrids tr {
+    text-align: center;
+    color: black;
+    font-size: 80%;
+}
+
+------------------------
+
+.DailyGrids1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+    .DailyGrids1 td, .DailyGrids1 th {
+        border: 1px solid #000000;
+        padding: 5px;
+    }
+
+    .DailyGrids1 tr:nth-child(even) {
+        background-color: white;
+    }
+
+    .DailyGrids1 tr:nth-child(2n+1) {
+        background-color: #ffa31a;
+    }
+
+    .DailyGrids1 tr:hover {
+        background-color: #fc2b19;
+    }
+
+    .DailyGrids1 th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #fc790f;
+        color: white;
+        position: sticky;
+        top: 0;
+    }
+
+    .DailyGrids1 tr {
+        text-align: center;
+        color: black;
+        font-size: 80%;
+    }
